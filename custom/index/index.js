@@ -13,7 +13,7 @@ var vm = new Vue({
     }
 })
 $('#md').modal({
-    show: true,
+    show: false,
     backdrop: 'static',
     keyboard: false
 })
