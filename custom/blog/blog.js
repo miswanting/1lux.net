@@ -1,4 +1,4 @@
-WebsiteOpenTime = moment('2018-10-03 12:00:00')
+WebsiteOpenTime = moment('2018-10-07 12:00:00')
 Vue.config.devtools = true
 moment.locale('zh-cn')
 var duration = moment.duration(WebsiteOpenTime.diff(moment()))
@@ -26,10 +26,3 @@ if (duration >= 0) {
         keyboard: false
     })
 }
-particlesJS.load('particles-js', '/custom/index/particles.json', function () { });
-var update = function () {
-
-}
-$(body).on('resize', function () {
-    update()
-})
