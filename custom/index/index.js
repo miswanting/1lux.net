@@ -28,7 +28,7 @@ if (duration >= 0) {
 }
 particlesJS.load('particles-js', '/custom/index/particles.json', function () { });
 var update = function () {
-
+    
 }
 $(body).on('resize', function () {
     update()
